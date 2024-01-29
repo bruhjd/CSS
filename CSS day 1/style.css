@@ -1,0 +1,23 @@
+ /* element selector */
+ p{
+    color: violet;
+    border: 2px solid blue;
+}
+/* class selector */
+.colour{
+   color:purple ;
+   background-color: white;
+    font-size:large;
+}
+/* ID selector */
+#third{
+    color: rgb(82, 114, 218);
+    background-color: antiquewhite;
+    font-style: italic;
+    font-variant: small-caps;
+}
+footer,span{
+    font-style: italic;
+    color:rgb(11, 169, 222);
+    background-color:lightgoldenrodyellow ;
+}
