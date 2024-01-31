@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit Gym</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(gym.jpg);
+    }
+
+    .form input {
+        text-align: center;
+    display: block;
+    width: 34%;
+    margin: 5px auto;
+    padding: 6px;
+    border-radius: 17px;
+    font-size: 13px;
+    font-family: cursive;
+    }
+    .container h1{
+text-align: center;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        margin: 0px 16px;
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .navbar li a:hover {
+        color: cyan;
+        text-decoration: underline;
+    }
+
+    .left {
+        position: absolute;
+        left: 45px;
+        top: 0px;
+        display: inline-block;
+    }
+
+    .left img {
+        width: 69px;
+        height: 69px;
+        border-radius: 69px;
+    }
+
+    .logo {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .mid {
+        margin: auto;
+        display: block;
+        width: 33%;
+    }
+
+    .right {
+        position: absolute;
+        right: 45px;
+        top: 0px;
+        display: inline-block;
+    }
+
+    .btn {
+        margin: 17px 9px;
+        padding: 4px 4px;
+        font-size: 19px;
+        color: white;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 9px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .container {
+        border: 3px solid white;
+        margin: 32px 49px;
+        padding: 48px 50px;
+        width: 50%;
+        border-radius: 24px;
+
+    }
+
+    .btn:hover {
+        color: cyan;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.XA8Y1UqhRzIjobAjga1o5AHaHa&pid=Api&P=0&h=220" alt="">
+            <div class="logo">Vector Gym</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a> </li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Join us</button>
+            <button class="btn">Email</button>
+
+    </header>
+    </div>
+    <div class="container">
+        main container
+        <h1>Join to live long</h1>
+        <form action="noaction.php">
+            <div class="form">
+
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form">
+                <input type="text" name="address" placeholder="current address">
+            </div>
+            <div class="form">
+                <input type="email" name="email" placeholder="example@gmail.com">
+            </div>
+            <div class="form">
+                <input type="date" name="DOB">
+            </div>
+            <div class="form">
+                <input type="number" name="number" placeholder="phone number">
+            </div>
+            <button class="btn">Submit</button>
+            <button class="btn">Cancel</button>
+        </form>
+    </div>
+</body>
+
+</html>
